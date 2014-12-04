@@ -22,7 +22,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 
 #include "quakedef.h"
 #include "qsound.h"
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 extern qbool ActiveApp, Minimized;
 extern cvar_t sys_inactivesound;

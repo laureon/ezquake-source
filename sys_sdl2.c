@@ -18,7 +18,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 */
 
 #include "quakedef.h"
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 // TODO: implement (SDL_PauseAudio func)
 // I currently just clear the ringbuffer when inactive - dimman

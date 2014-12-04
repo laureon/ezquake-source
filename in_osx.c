@@ -18,7 +18,7 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 */
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include <IOKit/hid/IOHIDLib.h>
 #include <IOKit/hidsystem/event_status_driver.h>
 
