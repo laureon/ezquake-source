@@ -22,7 +22,7 @@ ifndef VER
 endif
 
 LSYS := $(shell echo $(SYS) | tr A-Z a-z)
-CC ?= gcc
+CC ?= clang
 WINDRES ?= windres
 STRIP ?= strip
 RM ?= rm -f
