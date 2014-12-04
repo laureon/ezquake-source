@@ -329,7 +329,7 @@ endif
 ifdef CONFIG_WINDOWS
     TARG_c := ezquake.exe
 else
-    TARG_c := ezquake-$(LSYS)-$(CPU)
+    TARG_c := build/ezquake-$(LSYS)-$(CPU)
 endif
 
 all: $(TARG_c)
